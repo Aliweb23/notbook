@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Notizblock</title>
+    <title>Mein Notizblock</title>
 </head>
 <body>
+<div id="container">
     <div class="notepad-container">
-        <textarea id="noteInput" placeholder="Maximal 80 Buchstaben"></textarea>
+        <div><textarea id="noteInput" placeholder="Maximal 80 Buchstaben"></textarea></div>
         <button class="add-btn" onclick="addNote()">Notiz hinzufügen</button>
         <button class="delete-btn" onclick="deleteAllNotes()">Alle Notizen löschen</button>
-        <button class="save-btn" onclick="saveNotes()">Notizen speichern</button>
+        <button class="save-btn" onclick="saveNotes()">Notizen speichern</button><br>
+        <hr>
         <div id="notesList"></div>
     </div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -4,12 +4,20 @@
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
+
     font-style: normal;
   }
+  #container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+}
 body {
     background: url(bild/paper-3653357_1280.webp);
     font-family: "Dancing Script";
     display: flex;
+    justify-content: baseline;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -22,13 +30,19 @@ body {
 
 textarea {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
     max-width: 300px;
-    height: 100px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(161, 161, 172);
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(64, 64, 71);
+    background: #f3f4f0;
+    /* color: rgb(1, 1, 1); */
     border-radius: 8px;
+}
+textarea:hover{
+    background-color: rgb(164, 234, 234);
+    color: rgb(0, 0, 0);
 }
 
 button {
@@ -49,10 +63,21 @@ button {
     font-weight: bold;
 }
 .save-btn{
-    background: rgb(55, 146, 206);
+    background: rgb(83, 169, 226);
     color: white;
     font-weight: bold;
 }
+hr{
+    border: 6px solid rgb(82, 151, 230);
+    margin-top: 10px;
+ 
+}
 #notesList {
     margin-top: 20px;
+    width: 100%;
+    background-color: rgba(168, 219, 160, 0.844);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+
 }
