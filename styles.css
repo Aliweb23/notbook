@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.dancing-script-unique {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+body {
+    background: url(bild/paper-3653357_1280.webp);
+    font-family: "Dancing Script";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.notepad-container {
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(161, 161, 172);
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.add-btn{
+    background: rgb(35, 161, 39);
+    color: #000;
+    font-weight: bold;
+}
+
+.delete-btn{
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+.save-btn{
+    background: rgb(55, 146, 206);
+    color: white;
+    font-weight: bold;
+}
+#notesList {
+    margin-top: 20px;
+}
