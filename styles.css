@@ -14,7 +14,7 @@
     margin-top: 20px;
 }
 body {
-    background: url(bild/paper-3653357_1280.webp);
+    background: #fff;
     font-family: "Dancing Script";
     display: flex;
     justify-content: baseline;
@@ -68,7 +68,7 @@ button {
     font-weight: bold;
 }
 hr{
-    border: 6px solid rgb(82, 151, 230);
+    border: 3px solid rgb(8, 8, 8);
     margin-top: 10px;
  
 }

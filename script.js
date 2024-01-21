@@ -70,6 +70,5 @@ function loadSavedNotes() {
         updateNotesList();
     }
 }
-
 // Gespeicherte Notizen beim Laden der Seite laden
 loadSavedNotes();
