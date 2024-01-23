@@ -1,6 +1,5 @@
 // Notizen-Array initialisieren
 let notes = [];
-
 // Funktion zum Hinzufügen einer Notiz
 function addNote() {
     const noteInput = document.getElementById('noteInput');
@@ -19,7 +18,6 @@ function addNote() {
         alert('Die Notiz muss zwischen 1 und 80 Zeichen lang sein.');
     }
 }
-
 // Funktion zum Löschen aller Notizen
 function deleteAllNotes() {
     // Array leeren
@@ -28,7 +26,6 @@ function deleteAllNotes() {
     // Notizenliste aktualisieren
     updateNotesList();
 }
-
 // Funktion zum Aktualisieren der Notizenliste
 function updateNotesList() {
     const notesList = document.getElementById('notesList');

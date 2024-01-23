@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-.dancing-script-unique {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 600;
-
-    font-style: normal;
-  }
-  #container{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin-top: 20px;
-}
 body {
     background: #fff;
     font-family: "Dancing Script";
     display: flex;
-    justify-content: baseline;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top:20px;
 }
 
 .notepad-container {
@@ -35,13 +29,13 @@ textarea {
     max-width: 300px;
     height: 200px;
     margin-bottom: 20px;
-    border: 2px solid rgb(64, 64, 71);
-    background: #f3f4f0;
-    /* color: rgb(1, 1, 1); */
-    border-radius: 8px;
+    border: 2px solid rgb(8, 8, 8);
+    background: #e9e8e6;
+    border-radius: 5%;
 }
-textarea:hover{
-    background-color: rgb(164, 234, 234);
+
+textarea:hover {
+    background-color: rgb(245, 239, 166);
     color: rgb(0, 0, 0);
 }
 
@@ -51,33 +45,53 @@ button {
     cursor: pointer;
     border-radius: 10%;
 }
-.add-btn{
-    background: rgb(35, 161, 39);
+
+.add-btn {
+    background: rgb(122, 202, 125);
     color: #000;
     font-weight: bold;
 }
+.add-btn:hover{
+    background: rgb(52, 176, 56);
+    color: #fff;
+    font-weight: bolder;
+}
 
-.delete-btn{
-    background: red;
-    color: white;
+.delete-btn {
+    background: rgb(223, 107, 107);
+    color: #000;
     font-weight: bold;
 }
-.save-btn{
-    background: rgb(83, 169, 226);
-    color: white;
+.delete-btn:hover{
+    background: rgb(226, 44, 44);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.save-btn {
+    background: rgb(109, 190, 244);
+    color: #000;
     font-weight: bold;
+}
+.save-btn:hover{
+    background: rgb(60, 168, 239);
+    color: #fff;
+    font-weight: bolder;
 }
 hr{
     border: 3px solid rgb(8, 8, 8);
     margin-top: 10px;
- 
 }
+hr:hover{
+    border: 3px solid rgb(54, 57, 10);
+    margin-top: 10px;
+}
+
 #notesList {
     margin-top: 20px;
     width: 100%;
-    background-color: rgba(168, 219, 160, 0.844);
+    background-color: rgb(245, 239, 166);
     font-size: 18px;
     font-weight: bold;
-    border-radius: 8px;
-
+    border-radius: 0% 10%;
 }
