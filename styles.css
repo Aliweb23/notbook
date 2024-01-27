@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 #container {
@@ -24,6 +24,7 @@ body {
 
 textarea {
     text-align: center;
+    font-family: "Dancing Script";
     font-size: 16px;
     width: 100%;
     max-width: 300px;
@@ -91,7 +92,7 @@ hr:hover{
     margin-top: 20px;
     width: 100%;
     background-color: rgb(245, 239, 166);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 0% 10%;
 }

@@ -7,11 +7,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Mein Notizblock</title>
+    <link rel="stylesheet" href="query-style.css">
+    <link rel="stylesheet" media="screen and (max-width:460px)" href="mobile.css">
+    <title>Mein einfacher Notizblock</title>
 </head>
 <body>
+   
     <div id="container">
+        <!-- <header>
+            <h1>VIEWPORT</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus est minus, laboriosam aliquid cupiditate quae fuga beatae id enim, voluptatum possimus aliquam facere sunt animi cum veritatis voluptas architecto dolorum! A fugit veritatis laborum odit iure rerum consectetur, tempore incidunt repellendus consequatur quod explicabo nisi accusamus cum tenetur quam perferendis minima. Numquam ea unde repudiandae perferendis exercitationem eaque. Iste enim nostrum, sequi rem minus alias labore repellat, rerum, repudiandae iure praesentium nisi provident? Commodi, iusto temporibus? Officiis nihil eius incidunt nulla ut et repudiandae pariatur cumque quidem minima vitae explicabo adipisci, tempora sequi, perferendis illum. Veniam, provident. Enim, at reiciendis!</p>
+        </header> -->
         <div class="notepad-container">
+            <h1 class="title">Trage in dieses Feld deinen Text ein!</h1>
             <div><textarea id="noteInput" placeholder="Maximal 80 Buchstaben"></textarea></div>
             <button class="add-btn" onclick="addNote()">Notiz hinzufügen</button>
             <button class="delete-btn" onclick="deleteAllNotes()">Alle Notizen löschen</button>
@@ -20,6 +28,7 @@
             <div id="notesList"></div>
         </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
